@@ -1,0 +1,152 @@
+.search-container {
+  width: 824px;
+  height: 72px;
+  filter: drop-shadow(0px 8px 16px rgba(23, 31, 70, 0.08));
+  background: #2f2f43;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+.search {
+  width: 24px;
+  height: 24px;
+  color: #94a3b8;
+  margin-right: 25px;
+}
+.search-input {
+  height: 24px;
+  top: calc(50% - 24px / 2);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #94a3b8;
+  border-width: 0px;
+  background: #2f2f43;
+  border-radius: 8px;
+}
+input {
+  outline: none;
+}
+
+.page {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.group1 {
+  list-style-type: none;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+
+.group1 li {
+  text-align: center;
+}
+
+.group1 p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.group1 h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.confirm p,
+.confirm h1 {
+  color: #ff073a;
+}
+
+.active p,
+.active h1 {
+  color: #007bff;
+}
+
+.recover p,
+.recover h1 {
+  color: #28a745;
+}
+
+.deceased p,
+.deceased h1 {
+  color: #6c757d;
+}
+
+.unordered-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background: #1e1e30;
+  border: 1px solid #475569;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.item1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f8fafc;
+  list-style-type: none;
+  border-bottom: 1px solid #475569;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-left: 50px;
+}
+.people {
+  padding-right: 25px;
+}
+
+.sort-state {
+  display: flex;
+  width: 140px;
+}
+.sort-state h4 {
+  margin-right: 10px;
+}
+.sort-state img {
+  width: 20px;
+  height: 20px;
+}
+.sort-state button {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  margin-right: 10px;
+}
+
+.search-list {
+  display: flex;
+  flex-direction: column;
+}
+.products-loader-container {
+  height: 100vh;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

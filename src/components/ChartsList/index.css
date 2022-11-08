@@ -1,0 +1,57 @@
+.bar-chart {
+  padding: 80px;
+}
+.display-trends {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #cbd5e1;
+}
+.tested-chart {
+  background-color: #230f41;
+  padding: 30px;
+  margin: 15px;
+}
+
+.confirmed-chart {
+  background-color: #331427;
+  padding: 30px;
+  margin: 15px;
+}
+
+.active-chart {
+  background-color: #132240;
+  padding: 30px;
+  margin: 15px;
+}
+
+.recovered-chart {
+  background-color: #182829;
+  padding: 30px;
+  margin: 15px;
+}
+.deceased-chart {
+  background-color: #1c1c2b;
+  padding: 30px;
+  margin: 15px;
+}
+.confirmed-chart h2 {
+  color: #ff073a;
+  text-align: end;
+}
+.recovered-chart h2 {
+  color: #27a243;
+  text-align: end;
+}
+.deceased-chart h2 {
+  color: #6c757d;
+  text-align: end;
+}
+.active-chart h2 {
+  color: #007bff;
+  text-align: end;
+}
+.tested-chart h2 {
+  text-align: end;
+  color: #9673b9;
+}

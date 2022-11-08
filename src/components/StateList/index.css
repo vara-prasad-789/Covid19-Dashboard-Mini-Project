@@ -1,0 +1,76 @@
+.item,
+.item1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.state-name-head {
+  width: 200px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f9;
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+.confirmed {
+  color: #ff073a;
+  width: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.active {
+  color: #007bff;
+  width: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.recovered {
+  color: #28a745;
+  width: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.deceased {
+  color: #6c757d;
+  width: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+}
+
+.population {
+  color: #94a3b8;
+  padding-right: 25px;
+  width: 100px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+}
